@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+functions/node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Build output
+functions/lib/
+coverage/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and service account credentials
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+serviceAccount*.json
+*service-account*.json
+
+# Firebase debug logs
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Generated native folders
+/ios
+/android
+
+# Local editor settings
+.vscode/
+
+# Vercel
+.vercel/
