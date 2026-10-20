@@ -1,50 +1,109 @@
-# Welcome to your Expo app 👋
+# BudgetWise 💰
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**A personal finance app built with React Native, Expo, and Firebase.**
 
-## Get started
+BudgetWise is a money-management application designed to help users track their finances, manage budgets, and work toward their savings goals.
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- **User Authentication** — Create an account and sign in with Firebase Authentication.
+- **Financial Dashboard** — View income, expenses, and financial summaries.
+- **Transaction Management** — Add, edit, delete, and review income and expenses.
+- **Budget Management** — Access the budgeting section to organize financial plans.
+- **Savings Goals** — Use the savings section to work toward personal financial goals.
+- **Profile & Settings** — View account information and manage account-related actions.
+- **Cloud Data Storage** — Store user data in Firebase Cloud Firestore.
+- **Protected User Data** — Firebase security rules are used to restrict access to user-owned data.
 
-2. Start the app
+## 🛠️ Technologies Used
 
-   ```bash
-   npx expo start
-   ```
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- Firebase Authentication
+- Cloud Firestore
+- Cloud Functions for Firebase
+- Git and GitHub
 
-In the output, you'll find options to open the app in a
+## 📱 Project Screens
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+BudgetWise includes screens for:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Home
+- Dashboard
+- Transactions
+- Budgets
+- Savings
+- Explore
+- Profile and Settings
+- Login and Sign Up
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+### Prerequisites
+
+Before running the project, install:
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [Expo Go](https://expo.dev/go/) if you want to test on a compatible mobile device
+
+You will also need a Firebase project.
+
+### 1. Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/Ridex123-wire/budgetwise.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Open the project folder
 
-## Learn more
+```bash
+cd budgetwise
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Install dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+### 4. Configure Firebase
 
-Join our community of developers creating universal apps.
+Open `app/config/firebase.ts` and configure the Firebase client settings for your own Firebase project.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+In the Firebase Console:
+
+1. Enable Email/Password authentication.
+2. Set up Cloud Firestore.
+3. Configure and test your Firestore security rules before using real user data.
+
+Never commit private service-account credentials, private keys, passwords, or other secrets to GitHub.
+
+### 5. Start the application
+
+```bash
+npx expo start
+```
+
+Follow the Expo terminal instructions to run the app on a supported device or development platform.
+
+## 🎯 Project Goal
+
+BudgetWise is part of my journey as a developer, combining mobile app development, user authentication, cloud data storage, and practical financial-management features.
+
+I am continuing to improve the application, expand its functionality, and strengthen its reliability and security.
+
+## 👨‍💻 Developer
+
+**Ridwan Adekunle**
+
+Frontend developer growing toward full-stack and mobile development.
+
+- Portfolio: [Devora](https://devora-portfolio-nizxk3hh3-ridex123-wire.vercel.app)
+- GitHub: [Ridex123-wire](https://github.com/Ridex123-wire)
+
+---
+
+Built with purpose, one feature at a time. 🚀
